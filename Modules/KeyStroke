@@ -1,3 +1,4 @@
+--Credits To Gui2Lua
 
 local Keys = Instance.new("ScreenGui")
 local A = Instance.new("TextLabel")
@@ -11,7 +12,7 @@ local UICorner_4 = Instance.new("UICorner")
 local Space = Instance.new("TextLabel")
 local UICorner_5 = Instance.new("UICorner")
 
---Properties:
+-- Properties
 
 Keys.Name = "Keys"
 Keys.Parent = game.CoreGui
@@ -19,67 +20,67 @@ Keys.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 A.Name = "A"
 A.Parent = Keys
-A.BackgroundColor3 = Color3.fromRGB(71, 240, 255)
-A.Position = UDim2.new(0.0402750522, 0, 0.192532092, 0)
-A.Size = UDim2.new(0.0530451871, 0, 0.0822637156, 0)
+A.BackgroundColor3 = Color3.new(0.278431, 0.941176, 1)
+A.Position = UDim2.new(0.0168008693, 0, 0.824013591, 0)
+A.Size = UDim2.new(0.0370000005, 0, 0.0820000023, 0)
 A.Font = Enum.Font.Unknown
 A.Text = "A"
-A.TextColor3 = Color3.fromRGB(255, 255, 255)
-A.TextSize = 35.000
+A.TextColor3 = Color3.new(1, 1, 1)
+A.TextSize = 35
 
 UICorner.Parent = A
 
 W.Name = "W"
 W.Parent = Keys
-W.BackgroundColor3 = Color3.fromRGB(71, 240, 255)
-W.Position = UDim2.new(0.10117878, 0, 0.0945157558, 0)
-W.Size = UDim2.new(0.0530451871, 0, 0.0822637156, 0)
+W.BackgroundColor3 = Color3.new(0.278431, 0.941176, 1)
+W.Position = UDim2.new(0.0604902171, 0, 0.72599715, 0)
+W.Size = UDim2.new(0.0373957343, 0, 0.082263723, 0)
 W.Font = Enum.Font.Unknown
 W.Text = "W"
-W.TextColor3 = Color3.fromRGB(255, 255, 255)
-W.TextSize = 35.000
+W.TextColor3 = Color3.new(1, 1, 1)
+W.TextSize = 35
 
 UICorner_2.Parent = W
 
 D.Name = "D"
 D.Parent = Keys
-D.BackgroundColor3 = Color3.fromRGB(71, 240, 255)
-D.Position = UDim2.new(0.164047152, 0, 0.192532092, 0)
-D.Size = UDim2.new(0.0530451871, 0, 0.0822637156, 0)
+D.BackgroundColor3 = Color3.new(0.278431, 0.941176, 1)
+D.Position = UDim2.new(0.107709132, 0, 0.824013591, 0)
+D.Size = UDim2.new(0.0370000005, 0, 0.0820000023, 0)
 D.Font = Enum.Font.Unknown
 D.Text = "D"
-D.TextColor3 = Color3.fromRGB(255, 255, 255)
-D.TextSize = 35.000
+D.TextColor3 = Color3.new(1, 1, 1)
+D.TextSize = 35
 
 UICorner_3.Parent = D
 
 S.Name = "S"
 S.Parent = Keys
-S.BackgroundColor3 = Color3.fromRGB(71, 240, 255)
-S.Position = UDim2.new(0.101178788, 0, 0.192532092, 0)
-S.Size = UDim2.new(0.0530451871, 0, 0.0822637156, 0)
+S.BackgroundColor3 = Color3.new(0.278431, 0.941176, 1)
+S.Position = UDim2.new(0.0612726696, 0, 0.824013591, 0)
+S.Size = UDim2.new(0.0370000005, 0, 0.0820000023, 0)
 S.Font = Enum.Font.Unknown
 S.Text = "S"
-S.TextColor3 = Color3.fromRGB(255, 255, 255)
-S.TextSize = 35.000
+S.TextColor3 = Color3.new(1, 1, 1)
+S.TextSize = 35
 
 UICorner_4.Parent = S
 
 Space.Name = "Space"
 Space.Parent = Keys
-Space.BackgroundColor3 = Color3.fromRGB(71, 240, 255)
-Space.Position = UDim2.new(0.017681729, 0, 0.297345161, 0)
-Space.Size = UDim2.new(0.220039293, 0, 0.0822637156, 0)
+Space.BackgroundColor3 = Color3.new(0.278431, 0.941176, 1)
+Space.Position = UDim2.new(0.0184641965, 0, 0.930678546, 0)
+Space.Size = UDim2.new(0.123012669, 0, 0.0526340976, 0)
 Space.Font = Enum.Font.Unknown
-Space.Text = "Space"
-Space.TextColor3 = Color3.fromRGB(255, 255, 255)
-Space.TextSize = 35.000
+Space.Text = "_______"
+Space.TextColor3 = Color3.new(1, 1, 1)
+Space.TextSize = 35
 
 UICorner_5.Parent = Space
 
--- Scripts:
+-- Scripts
 
-local function SDAWZIX_fake_script() -- A.LocalScript 
+local function IXPQI_fake_script() -- A.LocalScript 
 	local script = Instance.new('LocalScript', A)
 
 	local textLabel = script.Parent -- Get the TextLabel object
@@ -109,8 +110,8 @@ local function SDAWZIX_fake_script() -- A.LocalScript
 	end)
 	
 end
-coroutine.wrap(SDAWZIX_fake_script)()
-local function WVPEQEO_fake_script() -- W.LocalScript 
+coroutine.wrap(IXPQI_fake_script)()
+local function MSZM_fake_script() -- W.LocalScript 
 	local script = Instance.new('LocalScript', W)
 
 	local textLabel = script.Parent -- Get the TextLabel object
@@ -140,8 +141,8 @@ local function WVPEQEO_fake_script() -- W.LocalScript
 	end)
 	
 end
-coroutine.wrap(WVPEQEO_fake_script)()
-local function NSWQY_fake_script() -- D.LocalScript 
+coroutine.wrap(MSZM_fake_script)()
+local function IVFUXFW_fake_script() -- D.LocalScript 
 	local script = Instance.new('LocalScript', D)
 
 	local textLabel = script.Parent -- Get the TextLabel object
@@ -171,8 +172,8 @@ local function NSWQY_fake_script() -- D.LocalScript
 	end)
 	
 end
-coroutine.wrap(NSWQY_fake_script)()
-local function WJSR_fake_script() -- S.LocalScript 
+coroutine.wrap(IVFUXFW_fake_script)()
+local function UKWIRMY_fake_script() -- S.LocalScript 
 	local script = Instance.new('LocalScript', S)
 
 	local textLabel = script.Parent -- Get the TextLabel object
@@ -202,8 +203,8 @@ local function WJSR_fake_script() -- S.LocalScript
 	end)
 	
 end
-coroutine.wrap(WJSR_fake_script)()
-local function FSHMRD_fake_script() -- Space.LocalScript 
+coroutine.wrap(UKWIRMY_fake_script)()
+local function NSNNA_fake_script() -- Space.LocalScript 
 	local script = Instance.new('LocalScript', Space)
 
 	local textLabel = script.Parent -- Get the TextLabel object
@@ -233,4 +234,4 @@ local function FSHMRD_fake_script() -- Space.LocalScript
 	end)
 	
 end
-coroutine.wrap(FSHMRD_fake_script)()
+coroutine.wrap(NSNNA_fake_script)()
