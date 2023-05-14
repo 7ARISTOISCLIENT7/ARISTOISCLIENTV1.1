@@ -9,7 +9,7 @@ local UICorner = Instance.new("UICorner")
 -- Properties
 
 ASC11LS.Name = "ASC1.1LS"
-ASC11LS.Parent = game.Workspace
+ASC11LS.Parent = game.CoreGui
 ASC11LS.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ASC11LS
