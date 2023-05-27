@@ -1,108 +1,87 @@
 --Credits Gui2Lua
 
-local ASC11LS = Instance.new("ScreenGui")
+local Loaded = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
-local TextLabel = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
 local TextButton = Instance.new("TextButton")
-local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
 
 -- Properties
 
-ASC11LS.Name = "ASC1.1LS"
-ASC11LS.Parent = game.CoreGui
-ASC11LS.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Loaded.Name = "Loaded"
+Loaded.Parent = game.CoreGui
+Loaded.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Frame.Parent = ASC11LS
-Frame.BackgroundColor3 = Color3.new(0.603922, 0.117647, 1)
-Frame.Position = UDim2.new(0, -36, 0, -122)
-Frame.Size = UDim2.new(0, 1364, 0, 1006)
+Frame.Parent = Loaded
+Frame.BackgroundColor3 = Color3.new(0, 0, 0)
+Frame.Position = UDim2.new(-0.0813771561, 0, -0.23888889, 0)
+Frame.Size = UDim2.new(1.11345851, 0, 1.23501575, 0)
 
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.new(0, 0, 0)
-TextLabel.BackgroundTransparency = 1
-TextLabel.Position = UDim2.new(0, 450, 0, 197)
-TextLabel.Size = UDim2.new(0, 495, 0, 87)
-TextLabel.Font = Enum.Font.Unknown
-TextLabel.Text = "Loading Aristois Client V1.1"
-TextLabel.TextColor3 = Color3.new(0, 0, 0)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14
-TextLabel.TextStrokeColor3 = Color3.new(0.988235, 0.709804, 0.54902)
-TextLabel.TextWrapped = true
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
+ImageLabel.BackgroundTransparency = 1
+ImageLabel.Position = UDim2.new(0.070274055, 0, 0.183908045, 0)
+ImageLabel.Size = UDim2.new(0.146170065, 0, 0.265644968, 0)
+ImageLabel.Image = "rbxassetid://13561958138"
 
 TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.new(0.109804, 0.466667, 1)
-TextButton.Position = UDim2.new(0, 1063, 0, 608)
-TextButton.Size = UDim2.new(0, 200, 0, 50)
-TextButton.Font = Enum.Font.Unknown
+TextButton.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
+TextButton.BackgroundTransparency = 1
+TextButton.Position = UDim2.new(0.907940924, 0, 0.936142981, 0)
+TextButton.Size = UDim2.new(0.0576247349, 0, 0.0498084277, 0)
+TextButton.Font = Enum.Font.JosefinSans
 TextButton.Text = "Skip"
-TextButton.TextColor3 = Color3.new(0, 0, 0)
-TextButton.TextSize = 33
+TextButton.TextColor3 = Color3.new(1, 1, 1)
+TextButton.TextSize = 37
+TextButton.TextWrapped = true
 
-UICorner.Parent = TextButton
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0.184118062, 0, 0.284802049, 0)
+TextLabel.Size = UDim2.new(0.14054814, 0, 0.0638569593, 0)
+TextLabel.Font = Enum.Font.JosefinSans
+TextLabel.Text = "Aristois"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.Position = UDim2.new(0.0590302162, 0, 0.94763732, 0)
+TextLabel_2.Size = UDim2.new(0.103302881, 0, 0.0549169853, 0)
+TextLabel_2.Font = Enum.Font.JosefinSans
+TextLabel_2.Text = "nill"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14
+TextLabel_2.TextWrapped = true
 
 -- Scripts
 
-local function LVNZK_fake_script() -- Frame.Script 
-	local script = Instance.new('Script', Frame)
-
-	local button = script.Parent:WaitForChild("TextLabel")
-	button.TextTransparency = 1
-	wait(1)
-	button.TextTransparency = 0
-	wait(1)
-	button.TextTransparency = 1
-	wait(1)
-	button.TextTransparency = 0
-	wait(1)
-	button.TextTransparency = 1
-	wait(1)
-	button.TextTransparency = 0
-	wait(1)
-	button.TextTransparency = 1
-	wait(1)
-	button.TextTransparency = 0
-	wait(1)
-	button.TextTransparency = 1
-	wait(1)
-	button.TextTransparency = 0
-	wait(1)
-	button.TextTransparency = 1
-	wait(1)
-	button.TextTransparency = 0
-	wait(1)
-	button.TextTransparency = 1
-	wait(1)
-	button.TextTransparency = 0
-	wait(1)
-	button.TextTransparency = 1
-	wait(1)
-	button.TextTransparency = 0
-	wait(1)
-	button.TextTransparency = 1
-	wait(1)
-	button.TextTransparency = 0
-	wait(1)
-	button.TextTransparency = 1
-	wait(1)
-	button.TextTransparency = 0
-	wait(1)
-	button.TextTransparency = 1
-end
-coroutine.wrap(LVNZK_fake_script)()
-local function RFRV_fake_script() -- Frame.Script 
-	local script = Instance.new('Script', Frame)
-
-	wait(18.5)
-	script.Parent.Visible = false
-end
-coroutine.wrap(RFRV_fake_script)()
-local function ZECGM_fake_script() -- TextButton.Script 
+local function XRYDYV_fake_script() -- TextButton.Script 
 	local script = Instance.new('Script', TextButton)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
-	
 end
-coroutine.wrap(ZECGM_fake_script)()
+coroutine.wrap(XRYDYV_fake_script)()
+local function NDXGJ_fake_script() -- TextLabel_2.Script 
+	local script = Instance.new('Script', TextLabel_2)
+
+	script.Parent.Text = "5"
+	wait(1)
+	script.Parent.Text = "4"
+	wait(1)
+	script.Parent.Text = "3"
+	wait(1)
+	script.Parent.Text = "2"
+	wait(1)
+	script.Parent.Text = "1"
+	script.Parent.Parent.Visible = false
+end
+coroutine.wrap(NDXGJ_fake_script)()
