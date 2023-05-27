@@ -82,6 +82,10 @@ local function NDXGJ_fake_script() -- TextLabel_2.Script
 	script.Parent.Text = "2"
 	wait(1)
 	script.Parent.Text = "1"
+	wait(1)
+	wait(1)
+	wait(1)
+	wait(1)
 	script.Parent.Parent.Visible = false
 end
 coroutine.wrap(NDXGJ_fake_script)()
