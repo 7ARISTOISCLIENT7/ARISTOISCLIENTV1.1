@@ -83,6 +83,7 @@ local function NDXGJ_fake_script() -- TextLabel_2.Script
 	wait(1)
 	script.Parent.Text = "1"
 	wait(1)
+	script.parent.Text = "0
 	wait(1)
 	script.Parent.Parent.Visible = false
 end
