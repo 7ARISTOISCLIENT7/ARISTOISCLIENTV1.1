@@ -6,7 +6,7 @@ local TextLabel = Instance.new("TextLabel")
 -- Properties
 
 Watermark.Name = "Watermark"
-Watermark.Parent = game.Workspace
+Watermark.Parent = game.CoreGui
 Watermark.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 ImageLabel.Parent = Watermark
